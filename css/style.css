@@ -1,0 +1,957 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0; 
+  padding: 0;
+}
+
+header{
+    padding: 20px 50px;
+}
+header i{
+    position: relative;
+    font-size: 40px;
+    color:blueviolet;
+    margin-top:10px;
+    /* margin-right: -50px; */
+}
+header div{
+    position: absolute;
+   color: rgb(0, 0, 0);
+
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    top: 70px;
+}
+header div span{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+header  ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    background-color: rgb(196, 196, 196);
+    width:55%;
+    height: 70px;
+    border-radius: 25px;
+    margin-left: 300px;
+    
+}
+header ul{
+position: relative;
+margin-top: 50px;
+}
+header ul a{
+    font-size: 25px;
+margin: auto;
+color: black;
+text-decoration: none;
+}
+header ul a:hover{
+    color: blue;
+}
+header ul .sp{
+    font-size: 25px;
+    margin: auto;
+color: black;
+cursor: pointer;
+position: relative;
+}
+header ul .sp:hover{
+    color: blue;
+}
+.btn1{
+    position: absolute;
+    background-color: black;
+color: #fff;
+    width: 200px;
+    height: 70px;
+margin-left: 690px;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(196, 196, 196);
+
+    color: rgb(0, 0, 0);
+}
+.badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top: 5px;
+    right: -25px;
+    font-size: 17px;
+  
+    
+}
+/* ///////////////////////////////////////////////////////////// */
+.int{
+    text-align: center;
+    font-family:serif;
+    font-size: 25px;
+    margin-top: 200px;
+}
+.int h1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.int p{
+    width: 70%;
+    height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin: auto;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+.container{
+   margin-top: 400px;
+    
+}
+
+.products1{ 
+    
+     display: flex;
+    
+    justify-content: space-between;
+   
+
+   
+}
+
+.product-item-img{
+    width: 25%;
+height:25%;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.product-item{
+    padding: 40px 20px;
+    border-radius: 35px;
+    width: 30%;
+    height: 450px;
+    background-color: rgb(238, 235, 235);
+   margin-top: 50px;
+   font-size: 25px;
+}
+.products-item-action{
+    flex: 1;
+text-align: center;
+display: flex;
+justify-content:space-between;
+flex-direction: column;
+margin-top: -110px;
+}
+.products-item-action .p1{
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.8;
+    margin-left: -20px;
+
+}
+
+.products-item-action .p2{
+    font-size: 25px;
+    /* margin-left: -40px; */
+    margin-top: 50px;
+    color: rgb(187, 176, 176);
+    text-align: left;
+}
+
+.products-item-action .tit1{
+    margin-left: 40px;
+cursor: pointer;
+}
+.products-item-action .tit1:hover{
+    color: rgb(70, 43, 226);
+}
+
+.products-item-action a{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 22px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.products-item-action a:hover{
+color: blueviolet;
+}
+
+/* ///////////////////////////////////////////////// */
+
+.item{
+    width: 90%;
+    height: 580px;
+    background-color: rgb(147, 75, 214);
+    margin-left: 40px;
+    margin-top: 300px;
+    border-radius: 45px;
+    position: relative;
+}
+.item-prog{
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+}
+.item-prog h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+   padding-top:150px ;
+   color: #fff;
+}
+.item-prog p{
+font-size: 22px;
+margin-top: 50px;
+color: #fff;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.item input{
+    width: 350px;
+    height: 75px;
+    border-radius: 50px;
+    margin-left: 20px;
+    border: none;
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-left: 30px;
+}
+.item button{
+    width: 200px;
+    height: 75px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    border: none;
+
+}
+.item button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.item img{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    margin-left: 730px;
+    margin-top: -250px;
+    border-radius: 50px;
+}
+
+.item .im1{
+    width: 280px;
+    height: 180px;
+    margin-top: 65px;
+    margin-left: 700px;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+hr{
+    margin-top: 200px;
+}
+.content{
+    position: relative;
+    width: 300px;
+    height: 450px;
+   
+    border-radius: 25px;
+    margin-top: 200px;
+}
+.content div{
+    cursor: pointer;
+    text-align: left;
+  
+}
+.content div i{
+    color: blueviolet;
+    font-size: 40px;
+}
+.content div span{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.content p{
+    font-size: 25px;
+    color: rgb(196, 189, 189);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.content .pro{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.content .pro:hover{
+    color: blue;
+}
+.content .pro i{
+    color: blue;
+   
+}
+
+.content2{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+  
+    margin-left: 400px;
+    margin-top: -450px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content2 p{
+    color: rgb(196, 189, 189);
+    cursor: pointer;
+}
+.content2 p:hover{
+    color: blue;
+}
+
+.content2 hr{
+    width: 150px;
+}
+.content3{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+  
+    margin-left: 650px;
+    margin-top: -450px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content3 p{
+    color: rgb(196, 189, 189);
+    cursor: pointer;
+}
+.content3 p:hover{
+    color: blue;
+}
+.content3 hr{
+    width: 250px;
+}
+
+.content4{
+    width: 30%;
+    height: 600px;
+    background-color: rgb(238, 235, 235);
+    border-radius: 40px;
+    margin-left: 930px;
+    margin-top: -450px;
+    padding-top: 60px;
+    padding-left: 40px;
+
+}
+.content4 h3{
+    color: blue;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content4 h1{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+
+}
+.content4 p{
+    font-size: 22px;
+    color: rgb(182, 179, 179);
+    padding-top: 40px;
+}
+.content4 .button1{
+  
+    background-color: black;
+color: #fff;
+    width: 200px;
+    height: 70px;
+margin-top: 30px;
+    border-radius: 55px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+.button1:hover{
+    background-color: rgb(11, 36, 253);
+
+    color: rgb(0, 0, 0);
+}
+.content4 .button1 i{
+    padding-right: 15px;
+}
+
+.content4 .button2{
+  
+    background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+    width: 200px;
+    height: 70px;
+margin-top: 40px;
+    border-radius:55px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    
+}
+.button2:hover{
+    
+    color: rgb(18, 14, 243);
+}
+
+.content4 .button2 i{
+    padding-right: 15px;
+}
+/* /////////////////////////////////////////////////////////////////// */
+
+.for h3{
+    display: inline;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.for h3:hover{
+    color: blue;
+}
+
+.for span{
+    font-size: 25px;
+   
+}
+.for hr{
+    margin-top: 70px;
+}
+
+.for i{
+  
+   font-size: 25px;
+   padding-left: 20px;
+ 
+ 
+  cursor: pointer;
+  
+ 
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:400px){
+    body{
+       width: 360px;
+     
+    }
+    header{
+        width: 100%;
+        height: 200px;
+        padding: 20px 50px;
+        margin-left: 30px;
+    }
+    header i{
+        flex-direction: row;
+       
+        font-size: 40px;
+        color:blueviolet;
+        margin-top:10px;
+       margin-left: 70px;
+       
+    }
+    header div{
+       color: rgb(0, 0, 0);
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        top: 70px;
+    }
+    header div span{
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+    header  ul{
+       
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: rgb(196, 196, 196);
+        width:100%;
+        height: 70px;
+        border-radius: 25px;
+        margin-left: -10px;
+        margin-top: 180px;
+        
+    }
+    
+    header ul a{
+        font-size: 20px;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    }
+    header ul a:hover{
+        color: blue;
+    }
+    header ul .sp{
+        font-size: 25px;
+        margin: auto;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    }
+    header ul .sp:hover{
+        color: blue;
+    }
+    .btn1{
+        visibility: hidden;
+        flex-direction: row;
+        position: absolute;
+        background-color: black;
+    color: #fff;
+        width: 200px;
+        height: 70px;
+    margin-left: 690px;
+        border-radius: 25px;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn1:hover{
+        background-color: rgb(196, 196, 196);
+    
+        color: rgb(0, 0, 0);
+    }
+    .badge{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        text-align: center;
+        display: block;
+        border-radius: 50%;
+        top: 5px;
+        right: -25px;
+        font-size: 17px;
+      
+        
+    }
+    /* ///////////////////////////////////////////////////////////// */
+    .int{
+        text-align: center;
+        font-family:serif;
+        font-size: 25px;
+        margin-top: 200px;
+    }
+    .int h1{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .int p{
+        flex-direction: row;
+        width: 70%;
+        height: 50px;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-top: 50px;
+        margin: auto;
+        font-size: 15px;
+    }
+    /* /////////////////////////////////////////////////////////////////////// */
+    .container{
+       margin-top: 200px;
+        
+    }
+    
+    .products1{ 
+        
+         display: flex;
+        
+        justify-content: space-between;
+       flex-direction: column;
+    
+       
+    }
+    
+    .product-item-img{
+        width: 40%;
+    height:100px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -20px;
+    }
+    
+    .product-item{
+        
+        border-radius: 25px;
+        width: 80%;
+        height: 420px;
+        background-color: rgb(238, 235, 235);
+       margin-top: 50px;
+       font-size: 25px;
+       margin-left: 10%;
+    }
+    .products-item-action{
+        flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    
+    margin-top: -110px;
+    }
+    .products-item-action .p1{
+       
+        margin-top: 5px;
+        opacity: 0.8;
+        margin-left: -150px;
+    }
+    
+    .products-item-action .p2{
+        font-size: 15px;
+        margin-top: 5px;
+        color: rgb(187, 176, 176);
+        text-align: left;
+    }
+    
+   .products-item-action .p11{
+    margin-top: 120px;
+    text-align: left;
+    cursor: pointer;
+   }
+    .products-item-action .p11:hover{
+        color: rgb(70, 43, 226);
+    }
+    
+    .products-item-action a{
+        text-align: left;
+        margin-top: 10px;
+        font-size: 22px;
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .products-item-action a:hover{
+    color: blueviolet;
+    }
+    
+    /* ///////////////////////////////////////////////// */
+    
+    .item{
+        width: 90%;
+        height: 550px;
+        background-color: rgb(147, 75, 214);
+        margin-left: 40px;
+        margin-top: 300px;
+        border-radius: 45px;
+        position: relative;
+    }
+    .item-prog{
+        width: 80%;
+        height: 300px;
+        margin-left: 50px;
+    }
+    .item-prog h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+       padding-top:50px ;
+       color: #fff;
+    }
+    .item-prog p{
+    font-size: 22px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    
+    
+    
+    .item input{
+        width: 80%;
+        height: 70px;
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: -10px;
+        border: none;
+       font-size:15px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       background-color: rgb(155, 155, 245);
+    }
+    .item button{
+        width: 80%;
+        height: 70px;
+        border-radius: 50px;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 20px;
+        border: none;
+        margin-left: -10px;
+    
+    }
+    .item button:hover{
+        background-color: black;
+        color: #fff;
+    } 
+    
+   .item img{
+    visibility: hidden;
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        margin-left: 730px;
+        margin-top: -250px;
+        border-radius: 50px; 
+     }
+    
+    .item .im1{
+       visibility: hidden;
+        width: 280px;
+        height: 180px;
+        margin-top: 65px;
+        margin-left: 700px;
+    } 
+    
+    /* ///////////////////////////////////////////////////////////////////// */
+    
+    hr{
+        margin-top: 150px;
+    }
+    .content{
+        position: relative;
+        width: 80%;
+        height: 450px;
+        padding-left: 20px;
+       margin-left: 40px;
+        border-radius: 25px;
+        margin-top: 100px;
+    }
+    .content div{
+        cursor: pointer;
+        text-align: left;
+      
+    }
+    .content div i{
+        color: blueviolet;
+        font-size: 40px;
+    }
+    .content div span{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    }
+    .content p{
+        font-size: 25px;
+        color: rgb(196, 189, 189);
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    .content .pro{
+        font-size: 25px;
+        cursor: pointer;
+        
+    }
+    
+    .content .pro:hover{
+        color: blue;
+    }
+    .content .pro i{
+        color: blue;
+       
+    }
+    
+    .content2{
+       
+        width: 40%;
+        height: 400px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 150px;
+        margin-left: 60px;
+        padding-left: 20px;
+    }
+    .content2 h1{
+        font-size: 23px;
+    }
+    .content2 p{
+        padding-bottom: 20px;
+        color: rgb(196, 189, 189);
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .content2 p:hover{
+        color: blue;
+    }
+    
+    .content2 hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 180px;
+    }
+    .content3{
+        
+        width: 40%;
+        height: 400px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 650px;
+        margin-left: 60px;
+        padding-left: 20px;
+    }
+    .content3 h1{
+        font-size: 23px;
+    }
+    .content3 p{
+        color: rgb(196, 189, 189);
+        cursor: pointer;
+        font-size: 20px;
+        padding-bottom: 20px;
+        margin-top: 15px;
+    }
+    .content3 p:hover{
+        color: blue;
+    }
+    .content3 hr{
+        width: 250px;
+        margin-top: 10px;
+       margin-top: 10px;
+    }
+    
+    .content4{
+        width: 80%;
+        height: 640px;
+        background-color: rgb(238, 235, 235);
+        border-radius: 40px;
+       margin-top: 1100px;
+        padding-top: 60px;
+        padding-left: 40px;
+        margin-left: 65px;
+    
+    }
+    .content4 h3{
+        color: blue;
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .content4 h1{
+        font-size: 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 20px;
+    
+    }
+    .content4 p{
+        font-size: 22px;
+        color: rgb(182, 179, 179);
+        padding-top: 40px;
+    }
+    .content4 .button1{
+      
+        background-color: black;
+    color: #fff;
+        width: 200px;
+        height: 70px;
+    margin-top: 30px;
+        border-radius: 55px;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+    }
+    .button1:hover{
+        background-color: rgb(11, 36, 253);
+    
+        color: rgb(0, 0, 0);
+    }
+    .content4 .button1 i{
+        padding-right: 15px;
+    }
+    
+    .content4 .button2{
+      
+        background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+        width: 200px;
+        height: 70px;
+    margin-top: 40px;
+        border-radius:55px;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        
+    }
+    .button2:hover{
+        
+        color: rgb(18, 14, 243);
+    }
+    
+    .content4 .button2 i{
+        padding-right: 15px;
+    }
+    /* /////////////////////////////////////////////////////////////////// */
+    .for{
+        margin-left: 40px;
+        padding-left: 40px;
+    }
+    .for h3{
+        display: inline;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .for h3:hover{
+        color: blue;
+    }
+    
+    .for span{
+        margin-top: 900px;
+        font-size: 20px;
+       
+    }
+    .for hr{
+        margin-top: -700px;
+    }
+    
+    .for i{
+      
+       font-size: 20px;
+       padding-left: 20px;
+     
+     
+      cursor: pointer;
+      
+     
+    } 
+}
+
+
+
+
+
+
+
